@@ -1,0 +1,266 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>AJAX/PHP/CURL/JSON example</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON example">
+		<meta name="author" content="Paddy Evans">
+
+	</head>
+
+	<body>
+
+		
+
+		<select id="selCountry">
+			<option value="GB">Great Britain</option>
+			<option value="FR">France</option>
+			<option value="DE">Germany</option>
+			<option value="US">USA</option>
+			<option value="ES">Spain</option>
+			<option value="SA">Saudi Arabia</option>
+			<option value="SS">South Sudan</option>
+			<option value="IS">Iceland</option>
+		</select>
+
+		<select id="selLanguage">
+			<option value="en">English</option>
+			<option value="fr">Francais</option>
+			<option value="de">Deutsche</option>
+			<option value="es">Spanish</option>
+			<option value="ar">Arabic</option>
+			<option value="is">Icelandic</option>
+		</select>
+
+		<button id="btnRun">Run</button>
+
+		<br><br>
+
+		<div id="divResultsCountry">
+			
+			<table>
+
+				
+
+				<tr>
+					<td align="right">
+						Capital: 
+					</td>
+					<td id="txtCapital">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						GeonameId: 
+					</td>
+					<td id="txtGeonameId">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Country Code: 
+					</td>
+					<td id="txtCountryCode">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Currency Code: 
+					</td>
+					<td id="txtCurrencyCode">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Population: 
+					</td>
+					<td id="txtPopulation">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Area in Square Metres: 
+					</td>
+					<td id="txtAreaInSqKm">
+						
+					</td>
+
+				</tr>
+
+
+
+			</table>
+
+		</div>
+
+
+		<select id="selIcao">
+			<option value="EGLL">London</option>
+			<option value="LFPG">Paris</option>
+			<option value="LEVC">Valencia</option>
+			<option value="KSFO">San Francisco</option>
+			<option value="ZSPD">Shanghai</option>
+			<option value="HECA">Cairo</option>
+		</select>
+
+		<button id="btnRun2">Run</button>
+
+		<br><br>
+
+		<div id="divResults">
+			
+			<table>
+
+				
+
+				<tr>
+					<td align="right">
+						ICAO Code: 
+					</td>
+					<td id="txtICAO">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Clouds: 
+					</td>
+					<td id="txtClouds">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Temperature: 
+					</td>
+					<td id="txtTemperature">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Humidity:
+					</td>
+					<td id="txtHumidity">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Weather Condition: 
+					</td>
+					<td id="txtWeatherCondition">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Station Name: 
+					</td>
+					<td id="txtStationName">
+						
+					</td>
+
+				</tr>
+
+
+
+			</table>
+
+		</div>
+
+
+		<select id="selCity">
+			<option value="MADRID">Madrid</option>
+			<option value="TOKYO">Tokyo</option>
+			<option value="DELHI">Delhi</option>
+			<option value="MUSCAT">Muscat</option>
+			<option value="COLOMBO">Colombo</option>
+			
+		</select>
+
+		<button id="btnRun3">Run</button>
+
+		<br><br>
+
+		
+		<div id="divResults">
+			
+			<table>
+
+				
+
+				<tr>
+					<td align="right">
+						Summary: 
+					</td>
+					<td id="txtSummary">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Thumbnail Image:
+					</td>
+					<td id="txtThumbnailImg">
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					<td align="right">
+						Wikipedia URL: 
+					</td>
+					<td id="txtWikipediaUrl">
+						
+					</td>
+
+				</tr>
+
+
+
+
+			</table>
+
+		</div>
+
+
+
+		<script type="application/javascript" src="jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="script.js"></script>
+
+	</body>
+
+</html>
