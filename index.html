@@ -1,0 +1,112 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    
+  <title>Gazetteer</title>
+  
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="divnav"> 
+      
+            <label id="title">
+                Choose Your Country:
+            </label>
+                    <select id="options">
+                        <option value>UK</option>
+                        <option value>Spain</option>
+                        <option value>Germany</option>
+                        <option value>France</option>
+                        <option value>Switzerland</option>
+                        <option value>Norway</option>
+                        <option value>Russia</option>
+                    </select>
+                    <button id="btnRun1">Go!</button>
+       
+    </div>
+
+
+    <div id="mapid">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194348.1398105032!2d-3.8196206842121603!3d40.43786975948415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid%2C%20Spain!5e0!3m2!1sen!2suk!4v1614197860824!5m2!1sen!2suk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+    </div>
+
+     
+
+
+    
+        <table class="table">
+
+            
+
+            <tr>
+                <td>
+                    Capital City: 
+                </td>
+                <td id="txtCapitalCity">
+                    
+                </td>
+
+           
+                <td>
+                    Temparature: 
+                </td>
+                <td id="txtTemparature">
+                    
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    Currency Exchange: 
+                </td>
+                <td id="txtCurrencyExchange">
+                    
+                </td>
+
+            
+                <td>
+                    Currency: 
+                </td>
+                <td id="txtCurrency">
+                    
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    Temperature: 
+                </td>
+                <td id="txtTemperature">
+                    
+                </td>
+
+           
+                <td>
+                    Area in Square Metres: 
+                </td>
+                <td id="txtAreaInSqKm">
+                    
+                </td>
+
+            </tr>
+
+     
+        </table>
+
+
+    
+    <script type="application/javascript" src="jquery-2.2.3.min.js"></script>
+    <script type="application/javascript" src="Gazatteer.js"></script>
+
+</body>
+
+</html>
